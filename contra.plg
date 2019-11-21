@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: contra - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\dell\AppData\Local\Temp\RSPD219.tmp" with contents
+[
+/nologo /MT /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /FR"Debug/" /Fp"Debug/contra.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\Users\dell\Desktop\contra_c\data.cpp"
+"C:\Users\dell\Desktop\contra_c\enemies.cpp"
+"C:\Users\dell\Desktop\contra_c\funcs.cpp"
+"C:\Users\dell\Desktop\contra_c\globals.cpp"
+"C:\Users\dell\Desktop\contra_c\player.cpp"
+"C:\Users\dell\Desktop\contra_c\functions.cpp"
+"C:\Users\dell\Desktop\contra_c\graphics.cpp"
+"C:\Users\dell\Desktop\contra_c\main.cpp"
+"C:\Users\dell\Desktop\contra_c\timing.cpp"
+]
+Creating command line "cl.exe @C:\Users\dell\AppData\Local\Temp\RSPD219.tmp" 
+Creating temporary file "C:\Users\dell\AppData\Local\Temp\RSPD22A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib winmm.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/contra.pdb" /debug /machine:I386 /nodefaultlib:"libcmt" /out:"Debug/contra.exe" /pdbtype:sept 
+.\Debug\data.obj
+.\Debug\enemies.obj
+.\Debug\funcs.obj
+.\Debug\globals.obj
+.\Debug\player.obj
+.\Debug\functions.obj
+.\Debug\graphics.obj
+.\Debug\main.obj
+.\Debug\timing.obj
+.\sound.obj
+]
+Creating command line "link.exe @C:\Users\dell\AppData\Local\Temp\RSPD22A.tmp"
+<h3>Output Window</h3>
+Compiling...
+data.cpp
+enemies.cpp
+funcs.cpp
+globals.cpp
+player.cpp
+functions.cpp
+graphics.cpp
+main.cpp
+timing.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+contra.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
